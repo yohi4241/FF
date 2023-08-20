@@ -1,3 +1,6 @@
+import os
+
+os.system("pip install fastapi")
 from fastapi import FastAPI
 
 app = FastAPI()
